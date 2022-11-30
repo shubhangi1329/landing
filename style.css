@@ -1,0 +1,158 @@
+#home{
+    background-color:black;
+    display:grid;
+    height:80vh;
+   
+    grid-template-columns:1fr 1fr;
+    
+}
+*{
+    margin:0;
+}
+@keyframes fade-inout{
+    0%{opacity:1;}
+    100%{opacity:0;}
+}
+
+
+h1{
+    color:white;
+    /* height: 100vh; */
+    /* width:100vw; */
+    padding:3rem;
+    margin-bottom: 5rem;
+    margin-left:5rem;
+    font-size:8rem;
+    animation:fade-inout 2sec infinite alternate;
+    
+}
+img{
+    max-height: 100%;
+    max-width:100%;
+    margin-top:14rem ;
+    margin-left:18rem;
+    
+    padding-bottom:3rem;
+    width:500px;
+    height:300px;
+    background-size:cover
+}
+#services{
+    display:inline-block;
+    padding:4rem;
+}
+#c1{
+    margin-left:3rem;
+}
+.cont{
+  display:flex;
+  justify-content: space-between;
+  padding:10px 50px;
+}
+.item1{
+   height: 90px;
+   width: 70px;
+   
+   margin-right: 5rem;
+   margin-bottom: 4rem;
+}
+.item2{
+  
+  margin-right: 4rem;
+   margin-bottom: 4rem;
+  
+  
+  
+   
+}
+h2{
+    margin-bottom:15px;
+}
+.card:hover{
+  background-color: black;
+  color:white;
+  transition:0.3sec;
+}
+#line{
+    border:3px solid black;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    max-width: 100vw;
+
+}
+#contact{
+    background-color:black;
+    color:white;
+    width:100vw;
+    height:100vh;
+}
+#field{
+    background-color: black;
+    color:white;
+}
+#baton{
+     width:10rem;
+     background-color: white;
+     color:black;
+}
+form{
+    padding:3rem;
+}
+.con{
+    padding-top:3rem;
+    font-size: 6rem;
+}
+/* }
+main-div-2{
+    display: flex;
+    margin-bottom: 150px;
+    justify-content: space-evenly;
+}
+
+.main-div-2-image{
+    width: 572px;
+    height: 726px;
+    left: 89px;
+    top: 1353px;
+    margin-left: 80px;
+    vertical-align: top;
+}
+  
+.main-div-2-written{
+    display: flex;
+    flex-direction: column;
+}
+.main-div-2-title{
+    display: flex;
+    font-family: 'Inter';
+    width: 912px;
+    height: 150px;
+    left: 747px;
+    top: 1352px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 121px;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 80px;
+    vertical-align: top;
+}
+
+.main-div-2-para{
+    display: flex;
+    width: 912px;
+    height: 546px;
+    left: 747px;
+    top: 1525px;
+    margin-top: 0px;
+    margin-left: 80px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+ */
